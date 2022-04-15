@@ -27,3 +27,14 @@ add_executable(10 10.cpp)
 
 add_executable(11 11.cpp)
 
+add_executable(12 12.cpp)
+
+add_executable(13 13.cpp)
+
+add_executable(14 14.cpp)
+
+add_executable(15 15.cpp)
+
+add_executable(16 16.cpp)
+
+

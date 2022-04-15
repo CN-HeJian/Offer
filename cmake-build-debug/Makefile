@@ -64,16 +64,6 @@ CMAKE_BINARY_DIR = C:\Users\admin\Desktop\Offer\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -83,6 +73,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -258,6 +258,71 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11.dir\build.make CMakeFiles/11.dir/build
 .PHONY : 11/fast
 
+#=============================================================================
+# Target rules for targets named 12
+
+# Build rule for target.
+12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 12
+.PHONY : 12
+
+# fast build rule for target.
+12/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/build
+.PHONY : 12/fast
+
+#=============================================================================
+# Target rules for targets named 13
+
+# Build rule for target.
+13: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 13
+.PHONY : 13
+
+# fast build rule for target.
+13/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13.dir\build.make CMakeFiles/13.dir/build
+.PHONY : 13/fast
+
+#=============================================================================
+# Target rules for targets named 14
+
+# Build rule for target.
+14: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 14
+.PHONY : 14
+
+# fast build rule for target.
+14/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14.dir\build.make CMakeFiles/14.dir/build
+.PHONY : 14/fast
+
+#=============================================================================
+# Target rules for targets named 15
+
+# Build rule for target.
+15: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 15
+.PHONY : 15
+
+# fast build rule for target.
+15/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15.dir\build.make CMakeFiles/15.dir/build
+.PHONY : 15/fast
+
+#=============================================================================
+# Target rules for targets named 16
+
+# Build rule for target.
+16: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 16
+.PHONY : 16
+
+# fast build rule for target.
+16/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16.dir\build.make CMakeFiles/16.dir/build
+.PHONY : 16/fast
+
 1.obj: 1.cpp.obj
 .PHONY : 1.obj
 
@@ -329,6 +394,126 @@ depend:
 11.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\11.dir\build.make CMakeFiles/11.dir/11.cpp.s
 .PHONY : 11.cpp.s
+
+12.obj: 12.cpp.obj
+.PHONY : 12.obj
+
+# target to build an object file
+12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.obj
+.PHONY : 12.cpp.obj
+
+12.i: 12.cpp.i
+.PHONY : 12.i
+
+# target to preprocess a source file
+12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.i
+.PHONY : 12.cpp.i
+
+12.s: 12.cpp.s
+.PHONY : 12.s
+
+# target to generate assembly for a file
+12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.s
+.PHONY : 12.cpp.s
+
+13.obj: 13.cpp.obj
+.PHONY : 13.obj
+
+# target to build an object file
+13.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13.dir\build.make CMakeFiles/13.dir/13.cpp.obj
+.PHONY : 13.cpp.obj
+
+13.i: 13.cpp.i
+.PHONY : 13.i
+
+# target to preprocess a source file
+13.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13.dir\build.make CMakeFiles/13.dir/13.cpp.i
+.PHONY : 13.cpp.i
+
+13.s: 13.cpp.s
+.PHONY : 13.s
+
+# target to generate assembly for a file
+13.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\13.dir\build.make CMakeFiles/13.dir/13.cpp.s
+.PHONY : 13.cpp.s
+
+14.obj: 14.cpp.obj
+.PHONY : 14.obj
+
+# target to build an object file
+14.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14.dir\build.make CMakeFiles/14.dir/14.cpp.obj
+.PHONY : 14.cpp.obj
+
+14.i: 14.cpp.i
+.PHONY : 14.i
+
+# target to preprocess a source file
+14.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14.dir\build.make CMakeFiles/14.dir/14.cpp.i
+.PHONY : 14.cpp.i
+
+14.s: 14.cpp.s
+.PHONY : 14.s
+
+# target to generate assembly for a file
+14.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\14.dir\build.make CMakeFiles/14.dir/14.cpp.s
+.PHONY : 14.cpp.s
+
+15.obj: 15.cpp.obj
+.PHONY : 15.obj
+
+# target to build an object file
+15.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15.dir\build.make CMakeFiles/15.dir/15.cpp.obj
+.PHONY : 15.cpp.obj
+
+15.i: 15.cpp.i
+.PHONY : 15.i
+
+# target to preprocess a source file
+15.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15.dir\build.make CMakeFiles/15.dir/15.cpp.i
+.PHONY : 15.cpp.i
+
+15.s: 15.cpp.s
+.PHONY : 15.s
+
+# target to generate assembly for a file
+15.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\15.dir\build.make CMakeFiles/15.dir/15.cpp.s
+.PHONY : 15.cpp.s
+
+16.obj: 16.cpp.obj
+.PHONY : 16.obj
+
+# target to build an object file
+16.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16.dir\build.make CMakeFiles/16.dir/16.cpp.obj
+.PHONY : 16.cpp.obj
+
+16.i: 16.cpp.i
+.PHONY : 16.i
+
+# target to preprocess a source file
+16.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16.dir\build.make CMakeFiles/16.dir/16.cpp.i
+.PHONY : 16.cpp.i
+
+16.s: 16.cpp.s
+.PHONY : 16.s
+
+# target to generate assembly for a file
+16.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\16.dir\build.make CMakeFiles/16.dir/16.cpp.s
+.PHONY : 16.cpp.s
 
 2.obj: 2.cpp.obj
 .PHONY : 2.obj
@@ -533,6 +718,11 @@ help:
 	@echo ... 1
 	@echo ... 10
 	@echo ... 11
+	@echo ... 12
+	@echo ... 13
+	@echo ... 14
+	@echo ... 15
+	@echo ... 16
 	@echo ... 2
 	@echo ... 3
 	@echo ... 4
@@ -550,6 +740,21 @@ help:
 	@echo ... 11.obj
 	@echo ... 11.i
 	@echo ... 11.s
+	@echo ... 12.obj
+	@echo ... 12.i
+	@echo ... 12.s
+	@echo ... 13.obj
+	@echo ... 13.i
+	@echo ... 13.s
+	@echo ... 14.obj
+	@echo ... 14.i
+	@echo ... 14.s
+	@echo ... 15.obj
+	@echo ... 15.i
+	@echo ... 15.s
+	@echo ... 16.obj
+	@echo ... 16.i
+	@echo ... 16.s
 	@echo ... 2.obj
 	@echo ... 2.i
 	@echo ... 2.s
