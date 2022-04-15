@@ -272,6 +272,7 @@ depend:
 .PHONY : 12/fast
 
 #=============================================================================
+<<<<<<< HEAD
 # Target rules for targets named 13
 
 # Build rule for target.
@@ -285,6 +286,8 @@ depend:
 .PHONY : 13/fast
 
 #=============================================================================
+=======
+>>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 # Target rules for targets named 14
 
 # Build rule for target.
@@ -419,6 +422,7 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.s
 .PHONY : 12.cpp.s
 
+<<<<<<< HEAD
 13.obj: 13.cpp.obj
 .PHONY : 13.obj
 
@@ -443,6 +447,8 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13.dir\build.make CMakeFiles/13.dir/13.cpp.s
 .PHONY : 13.cpp.s
 
+=======
+>>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 14.obj: 14.cpp.obj
 .PHONY : 14.obj
 
@@ -719,7 +725,10 @@ help:
 	@echo ... 10
 	@echo ... 11
 	@echo ... 12
+<<<<<<< HEAD
 	@echo ... 13
+=======
+>>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 	@echo ... 14
 	@echo ... 15
 	@echo ... 16
@@ -743,9 +752,12 @@ help:
 	@echo ... 12.obj
 	@echo ... 12.i
 	@echo ... 12.s
+<<<<<<< HEAD
 	@echo ... 13.obj
 	@echo ... 13.i
 	@echo ... 13.s
+=======
+>>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 	@echo ... 14.obj
 	@echo ... 14.i
 	@echo ... 14.s

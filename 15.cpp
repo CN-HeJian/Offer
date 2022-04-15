@@ -5,6 +5,7 @@
 #include <bits/stdc++.h>
 using namespace  std;
 
+<<<<<<< HEAD
 vector<int> findAnagrams(string s, string p) {
 
     vector<int> res;
@@ -46,4 +47,14 @@ int main(){
         cout<<c<<" ";
     }
     cout<<endl;
+=======
+int getLongest(string s1){
+
+}
+
+int main(){
+    string s1 = "";
+    int res = getLongest(s1);
+    cout<<"res: "<<res<<endl;
+>>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 }
