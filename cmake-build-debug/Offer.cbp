@@ -193,16 +193,6 @@
 					<DistClean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/admin/Desktop/Offer/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="5">
 				<Option output="C:/Users/admin/Desktop/Offer/cmake-build-debug/5.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/admin/Desktop/Offer/cmake-build-debug"/>
@@ -335,6 +325,60 @@
 					<DistClean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="8">
+				<Option output="C:/Users/admin/Desktop/Offer/cmake-build-debug/8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/Desktop/Offer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/admin/Desktop/Offer/."/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 8"/>
+					<CompileFile command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="8/fast">
+				<Option output="C:/Users/admin/Desktop/Offer/cmake-build-debug/8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/admin/Desktop/Offer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/admin/Desktop/Offer/."/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/mingw/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 8/fast"/>
+					<CompileFile command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/admin/Desktop/Offer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/mingw/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/admin/Desktop/Offer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="C:/Users/admin/Desktop/Offer/cmake-build-debug"/>
 				<Option type="4"/>
@@ -366,6 +410,9 @@
 		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/Offer/7.cpp">
 			<Option target="7"/>
+		</Unit>
+		<Unit filename="C:/Users/admin/Desktop/Offer/8.cpp">
+			<Option target="8"/>
 		</Unit>
 		<Unit filename="C:/Users/admin/Desktop/Offer/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

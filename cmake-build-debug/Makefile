@@ -206,6 +206,19 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/build
 .PHONY : 7/fast
 
+#=============================================================================
+# Target rules for targets named 8
+
+# Build rule for target.
+8 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 8
+.PHONY : 8
+
+# fast build rule for target.
+8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/build
+.PHONY : 8/fast
+
 1.obj: 1.cpp.obj
 .PHONY : 1.obj
 
@@ -374,6 +387,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\7.dir\build.make CMakeFiles/7.dir/7.cpp.s
 .PHONY : 7.cpp.s
 
+8.obj: 8.cpp.obj
+.PHONY : 8.obj
+
+# target to build an object file
+8.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/8.cpp.obj
+.PHONY : 8.cpp.obj
+
+8.i: 8.cpp.i
+.PHONY : 8.i
+
+# target to preprocess a source file
+8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/8.cpp.i
+.PHONY : 8.cpp.i
+
+8.s: 8.cpp.s
+.PHONY : 8.s
+
+# target to generate assembly for a file
+8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\8.dir\build.make CMakeFiles/8.dir/8.cpp.s
+.PHONY : 8.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -389,6 +426,7 @@ help:
 	@echo ... 5
 	@echo ... 6
 	@echo ... 7
+	@echo ... 8
 	@echo ... 1.obj
 	@echo ... 1.i
 	@echo ... 1.s
@@ -410,6 +448,9 @@ help:
 	@echo ... 7.obj
 	@echo ... 7.i
 	@echo ... 7.s
+	@echo ... 8.obj
+	@echo ... 8.i
+	@echo ... 8.s
 .PHONY : help
 
 
