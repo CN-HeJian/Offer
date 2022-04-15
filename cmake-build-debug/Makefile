@@ -272,7 +272,6 @@ depend:
 .PHONY : 12/fast
 
 #=============================================================================
-<<<<<<< HEAD
 # Target rules for targets named 13
 
 # Build rule for target.
@@ -286,8 +285,6 @@ depend:
 .PHONY : 13/fast
 
 #=============================================================================
-=======
->>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 # Target rules for targets named 14
 
 # Build rule for target.
@@ -325,6 +322,19 @@ depend:
 16/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16.dir\build.make CMakeFiles/16.dir/build
 .PHONY : 16/fast
+
+#=============================================================================
+# Target rules for targets named 17
+
+# Build rule for target.
+17: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 17
+.PHONY : 17
+
+# fast build rule for target.
+17/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17.dir\build.make CMakeFiles/17.dir/build
+.PHONY : 17/fast
 
 1.obj: 1.cpp.obj
 .PHONY : 1.obj
@@ -422,7 +432,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\12.dir\build.make CMakeFiles/12.dir/12.cpp.s
 .PHONY : 12.cpp.s
 
-<<<<<<< HEAD
 13.obj: 13.cpp.obj
 .PHONY : 13.obj
 
@@ -447,8 +456,6 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\13.dir\build.make CMakeFiles/13.dir/13.cpp.s
 .PHONY : 13.cpp.s
 
-=======
->>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 14.obj: 14.cpp.obj
 .PHONY : 14.obj
 
@@ -520,6 +527,33 @@ depend:
 16.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\16.dir\build.make CMakeFiles/16.dir/16.cpp.s
 .PHONY : 16.cpp.s
+
+17.obj: 17.cpp.obj
+.PHONY : 17.obj
+
+# target to build an object file
+17.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/17.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17.dir\build.make CMakeFiles/17.dir/17.cpp.obj
+.PHONY : 17.cpp.obj
+
+17.i: 17.cpp.i
+.PHONY : 17.i
+
+# target to preprocess a source file
+17.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/17.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17.dir\build.make CMakeFiles/17.dir/17.cpp.i
+.PHONY : 17.cpp.i
+
+17.s: 17.cpp.s
+.PHONY : 17.s
+
+# target to generate assembly for a file
+17.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\1.dir\build.make CMakeFiles/1.dir/17.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\17.dir\build.make CMakeFiles/17.dir/17.cpp.s
+.PHONY : 17.cpp.s
 
 2.obj: 2.cpp.obj
 .PHONY : 2.obj
@@ -725,13 +759,11 @@ help:
 	@echo ... 10
 	@echo ... 11
 	@echo ... 12
-<<<<<<< HEAD
 	@echo ... 13
-=======
->>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 	@echo ... 14
 	@echo ... 15
 	@echo ... 16
+	@echo ... 17
 	@echo ... 2
 	@echo ... 3
 	@echo ... 4
@@ -752,12 +784,9 @@ help:
 	@echo ... 12.obj
 	@echo ... 12.i
 	@echo ... 12.s
-<<<<<<< HEAD
 	@echo ... 13.obj
 	@echo ... 13.i
 	@echo ... 13.s
-=======
->>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 	@echo ... 14.obj
 	@echo ... 14.i
 	@echo ... 14.s
@@ -767,6 +796,9 @@ help:
 	@echo ... 16.obj
 	@echo ... 16.i
 	@echo ... 16.s
+	@echo ... 17.obj
+	@echo ... 17.i
+	@echo ... 17.s
 	@echo ... 2.obj
 	@echo ... 2.i
 	@echo ... 2.s

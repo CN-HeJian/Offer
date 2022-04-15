@@ -34,7 +34,7 @@ bool checkInclusion(string s1,string s2){
 
 int main(){
     string s1  = "ba";
-    string s2 = "eidaooo";
+    string s2 = "eidbaooo";
     bool res = checkInclusion(s1,s2);
     cout<<"res: "<<res<<endl;
 }

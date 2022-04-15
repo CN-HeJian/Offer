@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(1 1.cpp)
+add_executable(1 1.cpp 17.cpp)
 
 add_executable(2 2.cpp)
 
@@ -29,18 +29,12 @@ add_executable(11 11.cpp)
 
 add_executable(12 12.cpp)
 
-<<<<<<< HEAD
 add_executable(13 13.cpp)
 
-=======
->>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
 add_executable(14 14.cpp)
 
 add_executable(15 15.cpp)
 
 add_executable(16 16.cpp)
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 830f3e910fd537e7e47a5d0d71d58a246ff4929f
+add_executable(17 17.cpp)
