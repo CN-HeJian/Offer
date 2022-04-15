@@ -30,5 +30,3 @@ int main(){
     int res = minSubArrayLen(target,nums);
     cout<<res<<endl;
 }
-
-

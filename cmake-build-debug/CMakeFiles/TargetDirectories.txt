@@ -6,5 +6,8 @@ C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/5.dir
 C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/6.dir
 C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/7.dir
 C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/8.dir
+C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/9.dir
+C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/10.dir
+C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/11.dir
 C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/admin/Desktop/Offer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
