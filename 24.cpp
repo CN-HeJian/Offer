@@ -2,7 +2,6 @@
 // Created by admin on 2022/4/16.
 //
 
-
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -14,17 +13,19 @@ struct ListNode{
 };
 
 
+ListNode* reverseList(ListNode* head) {
+    ListNode* dummy = nullptr;
+    ListNode* pre = dummy;
+    ListNode* cur = head;
 
-ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-    ListNode* p1 = headA;
-    ListNode* p2 = headB;
-
-    while(p1!=p2){
-        p1 = p1==nullptr?headB:p1->next;
-        p2 = p2==nullptr?headA:p2->next;
+    while(cur){
+        ListNode* nex = cur->next;
+        cur->next = pre;
+        pre = cur;
+        cur = nex;
     }
 
-    return p1;
+    return pre;
 }
 
 int main(){
@@ -41,13 +42,12 @@ int main(){
     //cycle no
     node4->next = nullptr;
 
+    ListNode* ret = reverseList(head);
 
-//    ListNode* ret = getIntersectionNode(head);
-//
-//    while(ret){
-//        cout<<ret->val<<" ";
-//        ret = ret->next;
-//    }
+    while(ret){
+        cout<<ret->val<<" ";
+        ret = ret->next;
+    }
 
     return 0;
 }
