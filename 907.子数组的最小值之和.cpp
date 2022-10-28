@@ -17,10 +17,10 @@ public:
         vector<int> right(n,0);
 
         for(int i=0;i<n;i++){
-
+            //
         }
 
-        
+
     }
 };
 // @lc code=end
