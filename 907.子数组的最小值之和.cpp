@@ -11,7 +11,7 @@ using namespace std;
 class Solution {
 public:
     int sumSubarrayMins(vector<int>& arr) {
-
+        
     }
 };
 // @lc code=end
