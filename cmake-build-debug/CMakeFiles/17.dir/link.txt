@@ -1,3 +1,0 @@
-"D:\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\17.dir/objects.a
-E:\mingw\mingw64\bin\ar.exe cr CMakeFiles\17.dir/objects.a @CMakeFiles\17.dir\objects1.rsp
-E:\mingw\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\17.dir/objects.a -Wl,--no-whole-archive -o 17.exe -Wl,--out-implib,lib17.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\17.dir\linklibs.rsp
